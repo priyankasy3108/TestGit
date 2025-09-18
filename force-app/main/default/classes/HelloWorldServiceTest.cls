@@ -4,7 +4,7 @@ private class HelloWorldServiceTest {
     static void testSayHello() {
         Test.startTest();
         String result1 = HelloWorldService.sayHello('Priyanka');
-        System.assertEquals('Hello, Priyanka!', result1);
+        System.assertEquals('Hello, Priyanka!!', result1);
 
         String result2 = HelloWorldService.sayHello('');
         System.assertEquals('Hello, Salesforce Developer!', result2);
